@@ -330,7 +330,7 @@ input:valid + .label-line {
   }
   #footer {
     padding: 10px;
-    font-size: 14px;
+    font-size: 10px;
   }
 
   /* Hide "Home", "About", and "Contact" on smaller screens */
