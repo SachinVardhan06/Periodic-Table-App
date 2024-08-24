@@ -220,7 +220,8 @@ input:valid + .label-line {
     height: 10vh;
   }
   #mid-text {
-    font-size: 25px;
+    margin-top: 5px;
+    font-size: 20px;
     margin-bottom: 30px;
   }
 
