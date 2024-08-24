@@ -19,12 +19,12 @@ form.addEventListener("submit", (e) => {
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
     .then((response) => {
       console.log("Success!", response);
-      location.reload(); // Refresh the page after successful submission
+      location.reload(); 
     })
     .catch((error) => console.error("Error!", error.message));
 });
 
-// -------------------- About Page on click -----------------------
+// -------------------- Oredr Placed -----------------------
 
 document
   .getElementById("place-button")
@@ -49,6 +49,10 @@ document
     });
     document.getElementById("place-button").style.display = "none";
 
-    // Show order placed message
+  
     document.getElementById("order-placed").style.display = "block";
+
+    setTimeout(() => {
+      window.location.href = "index.html";
+    }, 5000);
   });
