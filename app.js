@@ -25,3 +25,30 @@ form.addEventListener("submit", (e) => {
 });
 
 // -------------------- About Page on click -----------------------
+
+document
+  .getElementById("place-button")
+  .addEventListener("click", function (event) {
+    event.preventDefault();
+
+    // Get input fields
+    var name = document.getElementById("user-name").value.trim();
+    var email = document.getElementById("user-email").value.trim();
+    var phone = document.getElementById("user-phoneno").value.trim();
+    var address = document.getElementById("user-address").value.trim();
+
+  
+    if (!name || !email || !phone || !address) {
+      alert("Input fields cannot be empty.");
+      return;
+    }
+
+    document.getElementById("buy-text").style.display = "none";
+    document.querySelectorAll(".form-data").forEach(function (element) {
+      element.style.display = "none";
+    });
+    document.getElementById("place-button").style.display = "none";
+
+    // Show order placed message
+    document.getElementById("order-placed").style.display = "block";
+  });
