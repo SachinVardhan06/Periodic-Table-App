@@ -103,35 +103,42 @@ img {
   justify-content: center;
   font-size: 35px;
 }
+
 #buy-text {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 35px;
 }
+
 .form-data {
   width: 680px;
 }
+
 #features-head {
   color: white;
   display: flex;
   font-size: 30px;
   justify-content: center;
 }
+
 .features {
   font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #data-features {
   color: white;
   list-style-type: disc;
   margin-top: 20px;
 }
+
 #data-features li {
   margin-bottom: 10px;
 }
+
 .form-inside {
   position: relative;
   height: 80px;
@@ -186,7 +193,7 @@ input:valid + .label-line {
 }
 
 #footer {
-  background-color: transparent;
+  background-color: black;
   color: white;
   text-align: center;
   padding: 20px;
@@ -220,11 +227,11 @@ input:valid + .label-line {
     height: 10vh;
   }
   #mid-text {
-    margin-top: 5px;
-    font-size: 34px;
+    font-size: 35px;
     margin-bottom: 30px;
   }
 
+  /* Hide navigation links on smaller screens */
   nav ul li {
     display: none;
   }
@@ -306,92 +313,9 @@ input:valid + .label-line {
   }
 }
 
-/* Media Queries for Mobile Devices (e.g., phones) */
-@media (max-width: 500px) {
-  .nav-bar {
-    height: 10vh;
-  }
-  #mid-text {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-
-  /* Hide navigation links on smaller screens */
-  nav ul li {
-    display: none;
-  }
-
-  /* Adjust navigation padding */
-  nav {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  nav ul li a {
-    font-size: 18px;
-  }
-
-  .logo {
-    font-size: 24px;
-  }
-
-  #buy-text {
-    font-size: 18px;
-  }
-
-  .image-view {
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
-  }
-
-  .features {
-    font-size: 16px;
-  }
-
-  #data-features {
-    color: white;
-    list-style-type: disc;
-    margin-top: 15px;
-  }
-
-  #data-features li {
-    margin-bottom: 10px;
-    list-style-type: disc;
-    margin: 0 30px 0 30px;
-  }
-
-  .form-data {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .form-inside {
-    height: 60px;
-    line-height: 60px;
-  }
-
-  input {
-    font-size: 1.6rem;
-    line-height: 60px;
-    padding: 0 20px;
-    width: calc(100% - 40px); /* Adjust input width to fit within form */
-  }
-
-  #place-button {
-    height: 40px;
-    font-size: 18px;
-    width: 100%;
-    margin-top: 20px; /* Add space above the button */
-  }
-
-  #botton-text {
-    font-size: 18px;
-  }
-
-  #footer {
-    padding: 10px;
-    font-size: 14px;
-  }
+#order-placed {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
 }
-
