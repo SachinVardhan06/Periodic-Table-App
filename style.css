@@ -280,7 +280,7 @@ input:valid + .label-line {
   }
 
   input {
-    font-size: 1.2rem;
+    font-size: 1.6 rem;
     line-height: 60px;
     padding: 0 20px;
     width: calc(100% - 40px); /* Adjust input width to fit within form */
@@ -295,6 +295,9 @@ input:valid + .label-line {
 
   #botton-text {
     font-size: 18px;
+  }
+  .label-line {
+    font-size: 1.1rem;
   }
 
   #footer {
