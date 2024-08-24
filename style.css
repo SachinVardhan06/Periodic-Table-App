@@ -32,7 +32,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -215,56 +215,12 @@ input:valid + .label-line {
 /* Media Queries for Different Devices */
 
 /* Styles for tablets and larger devices (e.g., laptops) */
-@media (max-width: 768px) {
-  #mid-text {
-    font-size: 28px;
-  }
-
-  .logo {
-    font-size: 28px;
-  }
-
-  nav ul li a {
-    font-size: 22px;
-  }
-
-  .form-data {
-    width: 300px;
-  }
-  #buy-text {
-    font-size: 28px;
-  }
-
-  .form-inside {
-    height: 70px;
-    width: 90%;
-    line-height: 70px;
-  }
-
-  input {
-    font-size: 1.8rem;
-    line-height: 50px;
-    padding: 0 25px;
-  }
-  #footer {
-    padding: 15px;
-    font-size: 14px;
-  }
-
-  #place-button {
-    height: 50px;
-    font-size: 20px;
-  }
-
-  #botton-text {
-    font-size: 22px;
-  }
-}
-
-/* Styles for mobile devices (e.g., phones) */
 @media (max-width: 767px) {
+  .nav-bar {
+    height: 10vh;
+  }
   #mid-text {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 30px;
   }
 
@@ -315,6 +271,7 @@ input:valid + .label-line {
 
   .form-data {
     width: 90%;
+    margin: 0 auto;
   }
 
   .form-inside {
@@ -326,11 +283,14 @@ input:valid + .label-line {
     font-size: 1.6rem;
     line-height: 60px;
     padding: 0 20px;
+    width: calc(100% - 40px); /* Adjust input width to fit within form */
   }
 
   #place-button {
     height: 40px;
     font-size: 18px;
+    width: 100%;
+    margin-top: 20px; /* Add space above the button */
   }
 
   #botton-text {
