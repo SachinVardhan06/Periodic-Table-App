@@ -267,10 +267,13 @@ input:valid + .label-line {
     font-size: 30px;
     margin-bottom: 30px;
   }
-  nav ul li a#about-page,
-  nav ul li a[href$="contact"] {
+
+  /* Hide navigation links on smaller screens */
+  nav ul li {
     display: none;
   }
+
+  /* Adjust other elements as needed */
   nav {
     padding-left: 5%;
     padding-right: 5%;
@@ -287,24 +290,29 @@ input:valid + .label-line {
   #buy-text {
     font-size: 18px;
   }
+
   .image-view {
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
   }
+
   .features {
     font-size: 16px;
   }
+
   #data-features {
     color: white;
     list-style-type: disc;
     margin-top: 15px;
   }
+
   #data-features li {
     margin-bottom: 10px;
     list-style-type: disc;
     margin: 0 30px 0 30px;
   }
+
   .form-data {
     width: 90%;
   }
@@ -328,16 +336,9 @@ input:valid + .label-line {
   #botton-text {
     font-size: 18px;
   }
+
   #footer {
     padding: 10px;
-    font-size: 10px;
-  }
-
-  /* Hide "Home", "About", and "Contact" on smaller screens */
-  nav ul li a[href*="home"],
-  nav ul li a[href*="about"],
-  nav ul li a[href*="contact"] {
-    display: none;
+    font-size: 14px;
   }
 }
-
