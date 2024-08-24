@@ -290,7 +290,7 @@ input:valid + .label-line {
     font-size: 1.2rem;
     line-height: 40px;
     padding: 10px;
-    width: calc(100% - 40px);
+    width: calc(100% - 40px); /* Adjust input width to fit within form */
   }
 
   #place-button {
@@ -309,7 +309,7 @@ input:valid + .label-line {
 
   #footer {
     padding: 10px;
-    font-size: 11px;
+    font-size: 14px;
   }
 }
 
@@ -318,7 +318,7 @@ input:valid + .label-line {
     height: 10vh;
   }
   #mid-text {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 30px;
   }
 
@@ -405,3 +405,7 @@ input:valid + .label-line {
   text-align: center;
   margin-top: 20px;
 }
+a {
+  text-decoration: none;
+}
+
