@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Now</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <nav>
+        <h2 class="logo">
+          <span id="span1">Periodic</span><span id="span2"> Table</span>
+        </h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <button
+          type="button"
+          id="button-buy2"
+          onclick='location.href="buypage.html"'
+        >
+          Buy Now
+        </button>
+      </nav>
+    </div>
+    <br />
+    <br />
+    <br />
+    <form name="submit-to-google-sheet">
+      <div class="buy-box">
+        <p id="buy-text">
+          Ready to Buy? Enter your Details to Place your Order.
+        </p>
+        <br />
+        <br />
+        <div class="form-data">
+          <div class="form-inside">
+            <input type="text" id="user-name" name="name" />
+            <div class="label-line">Enter Your Name</div>
+          </div>
+        </div>
+        <br />
+        <div class="form-data">
+          <div class="form-inside">
+            <input type="text" id="user-email" name="email" />
+            <div class="label-line">E-mail Id</div>
+          </div>
+        </div>
+        <br />
+        <div class="form-data">
+          <div class="form-inside">
+            <input type="text" id="user-phoneno" name="phoneno" />
+            <div class="label-line">Enter Your Phone No</div>
+          </div>
+        </div>
+        <br />
+        <div class="form-data">
+          <div class="form-inside">
+            <input type="text" id="user-address" name="address" />
+            <div class="label-line">Enter Your Address</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <button id="place-button" type="submit">Place Order</button>
+      </div>
+    </form>
+    <br />
+    <br />
+    <br />
+    <div id="botton-text">Made with ❤️ in Bharat</div>
+    <br />
+    <br />
+    <script src="app.js"></script>
+  </body>
+</html>
