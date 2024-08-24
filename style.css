@@ -1,13 +1,16 @@
 /* Default styles (applies to all devices) */
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
   background-color: black;
-  place-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 #mid-text {
@@ -213,6 +216,7 @@ input:valid + .label-line {
   justify-content: center;
   font-size: 25px;
 }
+
 #button-div {
   display: flex;
   justify-content: center;
@@ -303,6 +307,7 @@ input:valid + .label-line {
   #botton-text {
     font-size: 16px;
   }
+  
   .label-line {
     font-size: 1.1rem;
   }
@@ -381,6 +386,7 @@ input:valid + .label-line {
     line-height: 60px;
     padding: 0 20px;
     width: calc(100% - 40px);
+  }
 
   #place-button {
     height: 40px;
@@ -405,7 +411,7 @@ input:valid + .label-line {
   text-align: center;
   margin-top: 20px;
 }
+
 a {
   text-decoration: none;
 }
-
