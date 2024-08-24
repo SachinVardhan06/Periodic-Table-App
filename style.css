@@ -221,7 +221,7 @@ input:valid + .label-line {
   }
   #mid-text {
     margin-top: 5px;
-    font-size: 30px;
+    font-size: 34px;
     margin-bottom: 30px;
   }
 
@@ -308,6 +308,9 @@ input:valid + .label-line {
 
 /* Media Queries for Mobile Devices (e.g., phones) */
 @media (max-width: 500px) {
+  .nav-bar {
+    height: 10vh;
+  }
   #mid-text {
     font-size: 20px;
     margin-bottom: 30px;
