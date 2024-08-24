@@ -221,7 +221,7 @@ input:valid + .label-line {
   }
   #mid-text {
     margin-top: 5px;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 30px;
   }
 
@@ -305,3 +305,90 @@ input:valid + .label-line {
     font-size: 14px;
   }
 }
+
+/* Media Queries for Mobile Devices (e.g., phones) */
+@media (max-width: 500px) {
+  #mid-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  /* Hide navigation links on smaller screens */
+  nav ul li {
+    display: none;
+  }
+
+  /* Adjust navigation padding */
+  nav {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  #buy-text {
+    font-size: 18px;
+  }
+
+  .image-view {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .features {
+    font-size: 16px;
+  }
+
+  #data-features {
+    color: white;
+    list-style-type: disc;
+    margin-top: 15px;
+  }
+
+  #data-features li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    margin: 0 30px 0 30px;
+  }
+
+  .form-data {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form-inside {
+    height: 60px;
+    line-height: 60px;
+  }
+
+  input {
+    font-size: 1.6rem;
+    line-height: 60px;
+    padding: 0 20px;
+    width: calc(100% - 40px); /* Adjust input width to fit within form */
+  }
+
+  #place-button {
+    height: 40px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px; /* Add space above the button */
+  }
+
+  #botton-text {
+    font-size: 18px;
+  }
+
+  #footer {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
