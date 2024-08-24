@@ -1,12 +1,15 @@
+/* Default styles (applies to all devices) */
 * {
   margin: 0px;
   padding: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
 body {
   background-color: black;
   place-content: center;
 }
+
 #mid-text {
   color: white;
   font-size: 85px;
@@ -15,6 +18,7 @@ body {
   align-items: center;
   margin-bottom: 50px;
 }
+
 .nav-bar {
   height: 20vh;
   width: 100%;
@@ -23,6 +27,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -31,29 +36,34 @@ nav {
   padding-left: 10%;
   padding-right: 10%;
 }
+
 .logo {
   color: white;
   font-size: 32px;
-  text-decoration: none;
 }
+
 #span1 {
   color: #ea1538;
 }
+
 nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 10px 20px;
 }
+
 nav ul li a {
   font-size: 25px;
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
+
 nav ul li a:hover {
   color: #ea1538;
   transition: 0.3s;
 }
+
 button {
   border: none;
   background-color: #ea1538;
@@ -64,11 +74,13 @@ button {
   font-size: 15px;
   transition: 0.5s;
 }
+
 button:hover {
   background-color: white;
   cursor: pointer;
   color: #ea1538;
 }
+
 .image-view {
   height: 100%;
   width: 40%;
@@ -78,51 +90,61 @@ button:hover {
   position: relative;
   box-shadow: 3px 3px 20px #ea1538;
 }
+
 img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
 .buy-box {
   color: white;
   display: grid;
   justify-content: center;
   font-size: 35px;
 }
+
 #buy-text {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 35px;
 }
+
 .form-data {
   width: 680px;
 }
+
 #features-head {
   color: white;
   display: flex;
   font-size: 30px;
   justify-content: center;
 }
+
 .features {
   font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #data-features {
   color: white;
   list-style-type: disc;
   margin-top: 20px;
 }
+
 #data-features li {
   margin-bottom: 10px;
 }
+
 .form-inside {
   position: relative;
   height: 80px;
   line-height: 80px;
 }
+
 input {
   position: absolute;
   width: 100%;
@@ -136,6 +158,7 @@ input {
   transition: 0.1s ease;
   z-index: 1111;
 }
+
 .label-line {
   position: absolute;
   font-size: 1.6rem;
@@ -145,11 +168,13 @@ input {
   background-color: black;
   transition: 0.2s ease;
 }
+
 input:focus,
 input:valid {
   color: white;
   border: 4px solid #ea1538;
 }
+
 input:focus + .label-line,
 input:valid + .label-line {
   color: #ea1538;
@@ -158,6 +183,7 @@ input:valid + .label-line {
   transform: translate(-15px, -16px) scale(0.88);
   z-index: 1111;
 }
+
 #place-button {
   height: 60px;
   font-size: 25px;
@@ -165,6 +191,7 @@ input:valid + .label-line {
   display: flex;
   justify-content: center;
 }
+
 #footer {
   background-color: black;
   color: white;
@@ -174,10 +201,12 @@ input:valid + .label-line {
   bottom: 0;
   width: 100%;
 }
+
 #footer p {
   margin: 0;
   font-size: 20px;
 }
+
 #botton-text {
   color: white;
   display: flex;
@@ -189,7 +218,9 @@ input:valid + .label-line {
   justify-content: center;
   width: auto;
 }
+
 /* Media Queries for Different Devices */
+
 /* Styles for tablets and larger devices (e.g., laptops) */
 @media (max-width: 767px) {
   .nav-bar {
@@ -199,50 +230,62 @@ input:valid + .label-line {
     font-size: 35px;
     margin-bottom: 30px;
   }
+
   /* Hide navigation links on smaller screens */
   nav ul li {
     display: none;
   }
+
   /* Adjust other elements as needed */
   nav {
     padding-left: 5%;
     padding-right: 5%;
   }
+
   nav ul li a {
     font-size: 18px;
   }
+
   .logo {
     font-size: 24px;
   }
+
   #buy-text {
     font-size: 18px;
   }
+
   .image-view {
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
   }
+
   .features {
     font-size: 16px;
   }
+
   #data-features {
     color: white;
     list-style-type: disc;
     margin-top: 15px;
   }
+
   #data-features li {
     margin-bottom: 10px;
     list-style-type: disc;
     margin: 0 30px 0 30px;
   }
+
   .form-data {
     width: 90%;
     margin: 0 auto;
   }
+
   .form-inside {
     height: 60px;
     line-height: 60px;
   }
+
   input {
     font-size: 1.2rem;
     line-height: 40px;
@@ -256,6 +299,7 @@ input:valid + .label-line {
     width: 100%;
     margin-top: 20px; /* Add space above the button */
   }
+
   #botton-text {
     font-size: 16px;
   }
@@ -341,12 +385,14 @@ input:valid + .label-line {
     font-size: 11px;
   }
 }
+
 #order-placed {
   color: white;
   font-size: 25px;
   text-align: center;
   margin-top: 20px;
 }
+
 a {
   text-decoration: none;
 }
