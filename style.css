@@ -185,6 +185,21 @@ input:valid + .label-line {
   justify-content: center;
 }
 
+#footer {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 20px;
+}
+
 #botton-text {
   color: white;
   display: flex;
@@ -231,6 +246,10 @@ input:valid + .label-line {
     line-height: 50px;
     padding: 0 25px;
   }
+  #footer {
+    padding: 15px;
+    font-size: 14px;
+  }
 
   #place-button {
     height: 50px;
@@ -245,10 +264,13 @@ input:valid + .label-line {
 /* Styles for mobile devices (e.g., phones) */
 @media (max-width: 767px) {
   #mid-text {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 30px;
   }
-
+  nav ul li a#about-page,
+  nav ul li a[href$="contact"] {
+    display: none;
+  }
   nav {
     padding-left: 5%;
     padding-right: 5%;
@@ -306,6 +328,10 @@ input:valid + .label-line {
   #botton-text {
     font-size: 18px;
   }
+  #footer {
+    padding: 10px;
+    font-size: 14px;
+  }
 
   /* Hide "Home", "About", and "Contact" on smaller screens */
   nav ul li a[href*="home"],
@@ -314,3 +340,4 @@ input:valid + .label-line {
     display: none;
   }
 }
+
