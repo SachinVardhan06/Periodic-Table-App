@@ -309,7 +309,7 @@ input:valid + .label-line {
 
   #footer {
     padding: 10px;
-    font-size: 14px;
+    font-size: 11px;
   }
 }
 
@@ -318,7 +318,7 @@ input:valid + .label-line {
     height: 10vh;
   }
   #mid-text {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 30px;
   }
 
@@ -395,7 +395,7 @@ input:valid + .label-line {
 
   #footer {
     padding: 10px;
-    font-size: 14px;
+    font-size: 11px;
   }
 }
 
