@@ -8,6 +8,7 @@
 body {
   background-color: black;
   place-content: center;
+  overflow-x: hidden;
 }
 
 #mid-text {
